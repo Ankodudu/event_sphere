@@ -87,6 +87,7 @@ Which will start a server at `http://localhost:8080`, proxying API requests to t
 ### Event Management 📅
 
 - **add_event**: Enables authorized users to create new events with comprehensive details.
+                - This is the date format dd-month-year.
 - **update_event**: Allows for modifications to event details post-creation.
 - **delete_event**: Supports the removal of events from the system.
 - **get_event / get_event_by_name**: Facilitates access to event details by ID or name.
